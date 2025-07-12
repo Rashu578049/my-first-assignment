@@ -15,6 +15,9 @@
     background-color: white;
     border-radius: 10px;
 }
+.text-primary{
+    color: #0D1321;
+}
 /* nav style */
 nav{
     display: flex;
@@ -24,4 +27,22 @@ nav{
 .nav-title{
     font-size: 28px;
     font-weight: 800;
+}
+/* banner style */
+.banner{
+    text-align: center;
+    background-image: url('../assets/Hero-bg.png');
+}
+.banner-content{
+    margin: 30px 220px 45px;
+    padding: 30px 220px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 48px;
+    padding: 24px;
+}
+.banner-descrition{
+    font-size: 16px;
+    padding: 24px;
 }
